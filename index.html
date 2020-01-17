@@ -5,11 +5,33 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Car insurance</title>
+    <title>Triangle Tracker</title>
   </head>
   <body>
     <div class="container">
-
+      <form id="triangle">
+      <h1>Triangle Tracker</h1>
+      <div class="form-group">
+          <label></label>
+          <input type="side" class="form-control" id="sideA" placeholder="Enter value for side A">
+        </div>
+        <div class="form-group">
+          <label></label>
+          <input type="side" class="form-control" id="sideB" placeholder="Enter value for side B">
+        </div>
+        <div class="form-group">
+          <label></label>
+          <input type="side" class="form-control" id="sideC" placeholder="Enter value for side C">
+        </div>
+      </form>
+      <div>
+          <button type="submit" class="btn btn-success" id="output">See your Triangle</button>      
+      </div>
     </div>
   </body>
 </html>
+
+<!-- Equilateral: All sides are equal.
+Isosceles: Exactly 2 sides are equal.
+Scalene: No sides are equal.
+NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side -->
